@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+  <servlet>
+    <servlet-name>register</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>servlets.register</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>login</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>servlets.login</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>exit</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>servlets.exit</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>top</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>servlets.top</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>write</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>servlets.write</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>index</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>servlets.index</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>article</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>servlets.article</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>wr_comment</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>servlets.wr_comment</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>info</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>servlets.info</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>wr_info</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>servlets.wr_info</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>friend</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>servlets.friend</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>self</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>servlets.self</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>register</servlet-name>
+    <url-pattern>/servlet/register</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>login</servlet-name>
+    <url-pattern>/servlet/login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>exit</servlet-name>
+    <url-pattern>/servlet/exit</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>top</servlet-name>
+    <url-pattern>/servlet/top</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>write</servlet-name>
+    <url-pattern>/servlet/write</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>index</servlet-name>
+    <url-pattern>/servlet/index</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>article</servlet-name>
+    <url-pattern>/servlet/article</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>wr_comment</servlet-name>
+    <url-pattern>/servlet/wr_comment</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>info</servlet-name>
+    <url-pattern>/servlet/info</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>wr_info</servlet-name>
+    <url-pattern>/servlet/wr_info</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>friend</servlet-name>
+    <url-pattern>/servlet/friend</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>self</servlet-name>
+    <url-pattern>/servlet/self</url-pattern>
+  </servlet-mapping>
+
+</web-app>
